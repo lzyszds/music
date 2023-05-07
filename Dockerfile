@@ -7,5 +7,5 @@ RUN npm config set registry "https://registry.npmmirror.com/" \
     && npm install -g npm husky \
     && npm install --production
 
-EXPOSE 3000
+EXPOSE 3001
 CMD ["node", "app.js"]

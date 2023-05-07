@@ -7,8 +7,8 @@ const {
 async function test() {
   try {
     const result = await login_cellphone({
-      phone: '手机号',
-      password: '密码',
+      phone: 'user',
+      password: '',
     })
     console.log(result)
     const result2 = await user_cloud({
